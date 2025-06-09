@@ -10,15 +10,11 @@ def main():
     df_captions = dataset.get_captions_dataframe(lang_code="en")
 
     # Instantiate your clients here (OpenAI, Bedrock) with your keys
-    openai_client = OpenAI(api_key="")  # Replace with your OpenAI API key
-    judge_client = OpenAI(api_key="")  # Replace with your judge model API key
+    openai_client = OpenAI()
+    judge_client = OpenAI()
     bedrock_client = boto3.client(
-    "bedrock-runtime",
-    region_name="YOUR-REGION",  # e.g., "us-east-1"
-    aws_access_key_id="",
-    aws_secret_access_key="",
-    aws_session_token = ""
-)  # Replace with your AWS credentials
+    "bedrock-runtime"
+)
 
     evaluator = ImageCaptionEvaluator(
         gen_models=[
