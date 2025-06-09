@@ -1,4 +1,3 @@
-import pandas as pd
 from src.evaluator import ImageCaptionEvaluator
 from src.data_utils import DatasetManager
 from openai import OpenAI
