@@ -38,7 +38,7 @@ def main():
     )
 
     image_caption_pairs = list(zip(df_captions["path"], df_captions["caption"]))
-    image_caption_pairs = image_caption_pairs[:10]
+    image_caption_pairs = image_caption_pairs
     df_results = evaluator.evaluate_dataset(image_caption_pairs)
     print(df_results.head())
     df_results.to_csv("caption_eval_results.csv", index=False)
