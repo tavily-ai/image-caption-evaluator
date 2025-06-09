@@ -61,18 +61,33 @@ Run the evaluation script, which will:
 * Aggregate results into a CSV file with accuracy, latency, and cost metrics
 
 ```bash
-python run_evaluation.py --lang en --max-images 1000
+python run_evaluation.py 
 ```
-
-### Arguments
-
-* `--lang`: Language code for captions (default: "en")
-* `--max-images`: Number of images to process (default: all)
 
 ## Output
 
 * The script outputs a CSV file (e.g. `caption_eval_results.csv`) with detailed metrics per image and model.
 * You can analyze these results for model comparison and cost-performance trade-offs.
 
+
+
+---
+##  Contributing
+
+Feel free to submit issues and enhancement requests!
+Adding LLMs for comparison is welcome.
 ---
 
+##  Contact
+
+Questions, feedback, or want to build something custom? Reach out!
+
+- Email: [Tomer Weiss](mailto:tomer@tavily.com)
+
+
+---
+
+<div align="center">
+  <img src="images/logo_circle.png" alt="Tavily Logo" width="80"/>
+  <p>Powered by <a href="https://tavily.com">Tavily</a> – The web API built for AI agents</p>
+</div>
