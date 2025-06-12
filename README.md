@@ -2,7 +2,8 @@
 
 > Compare and benchmark image-to-text models from OpenAI and AWS Bedrock on the XTD10 dataset—measure accuracy, latency, and cost in one place.
 
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
+
 
 ---
 
@@ -80,12 +81,15 @@ Use your favorite plotting library to visualize trade-offs.
 ## Contact
 
 Questions or custom integrations? Reach out to Tomer Weiss:
-✉️ [tomer@tavily.com](mailto:tomer@tavily.com)
+
+- Email:
+  -  [Tomer Weiss](mailto:tomer@tavily.com) - Data Scientist @ Tavily
+  -  [Eyal Ben Barouch](mailto:eyal@tavily.com) - Head of Data @ Tavily
+
 
 ---
 
 <div align="center">
-  <img src="images/logo_circle.png" alt="Tavily Logo" width="80"/>
+  <img src=".assets/logo_circle.png" alt="Tavily Logo" width="80"/>
   <p>Powered by <a href="https://tavily.com">Tavily</a> — The web API built for AI agents</p>
 </div>
-```
